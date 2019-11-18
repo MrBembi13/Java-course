@@ -1,2 +1,2 @@
 # Java-course
-My project
+hierarchy class (transportation company by train)
