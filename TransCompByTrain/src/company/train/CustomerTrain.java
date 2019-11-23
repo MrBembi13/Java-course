@@ -1,28 +1,34 @@
 package company.train;
 
 public class CustomerTrain extends TrainPark {
-    private String modelTrain; //модель поезда
-    private String typeTrain; //тип поезда
+    private String typeTrain;
 
     public CustomerTrain(){}
 
-    public CustomerTrain(int indexTrain, String nameTrain, int since, boolean onOrder){
-        super(indexTrain, nameTrain, since, onOrder);
+    public CustomerTrain(int indexTrain, String nameTrain, boolean onOrder){
+        super(indexTrain, nameTrain, onOrder);
     }
 
-    public CustomerTrain(int indexTrain, String nameTrain, int since, boolean onOrder, String modelTrain, String typeTrain){
-        super(indexTrain, nameTrain, since, onOrder);
-        this.modelTrain = modelTrain;
+    public CustomerTrain(int indexTrain, String nameTrain, boolean onOrder, String typeTrain){
+        super(indexTrain, nameTrain, onOrder);
         this.typeTrain = typeTrain;
     }
 
-    public void setCustomerTrain(String modelTrain, String typeTrain){
-        this.modelTrain = modelTrain;
+    public void setTypeTrain(String typeTrain) {
         this.typeTrain = typeTrain;
     }
 
-    public void getCustomerTrain(){
-        System.out.println("Model train: " + this.modelTrain);
-        System.out.println("Type train: " + this.typeTrain);
+    public String getTypeTrain() {
+        return this.typeTrain;
+    }
+
+    @Override
+    public void startMove (){
+        System.out.println("Train starts moving!!!");
+    }
+
+    @Override
+    public void brake (){
+        System.out.println("Train brakes!!!");
     }
 }

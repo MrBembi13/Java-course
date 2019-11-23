@@ -7,23 +7,39 @@ public class Employee extends Person {
 
     public Employee (){}
 
-    public Employee(String nameEmployee, String surnameEmployee, byte ageEmployee, String sexEmployee){
-        super(nameEmployee, surnameEmployee,ageEmployee, sexEmployee);
+    public Employee(String nameEmployee, String surnameEmployee){
+        super(nameEmployee, surnameEmployee);
     }
 
-    public Employee(String nameEmployee, String surnameEmployee, byte ageEmployee, String sexEmployee, String postEmployee, int wagesEmployee){
-        super(nameEmployee, surnameEmployee, ageEmployee, sexEmployee);
+    public Employee(String nameEmployee, String surnameEmployee, String postEmployee, int wagesEmployee){
+        super(nameEmployee, surnameEmployee);
         this.postEmployee = postEmployee;
         this.wagesEmployee = wagesEmployee;
     }
 
-    public void setEmployee(String postEmployee, int wagesEmployee){
+    public void setPostEmployee(String postEmployee) {
         this.postEmployee = postEmployee;
+    }
+
+    public void setWagesEmployee(int wagesEmployee) {
         this.wagesEmployee = wagesEmployee;
     }
 
-    public void getEmployee(){
-        System.out.println("Post: " + this.postEmployee);
-        System.out.println("Wages: " + this.wagesEmployee);
+    public String getPostEmployee() {
+        return this.postEmployee;
+    }
+
+    public int getWagesEmployee() {
+        return this.wagesEmployee;
+    }
+
+    @Override
+    public void walk(){
+        System.out.println("walking");
+    }
+
+    @Override
+    public void stay(){
+        System.out.println("stay");
     }
 }

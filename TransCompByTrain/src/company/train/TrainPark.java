@@ -1,31 +1,43 @@
 package company.train;
 
-public class TrainPark {
-    protected int indexTrain; //индекс поезда в парке для идентификации
-    protected String nameTrain; //марка поезда
-    protected int since; //год выготовления
-    protected boolean onOrder = false; //на заказе или нет
+public abstract class TrainPark {
+    protected int indexTrain;
+    protected String nameTrain;
+    protected boolean onOrder = false;
 
     public TrainPark(){}
 
-    public TrainPark(int indexTrain, String nameTrain, int since, boolean onOrder){
+    public TrainPark(int indexTrain, String nameTrain, boolean onOrder){
         this.indexTrain = indexTrain;
         this.nameTrain = nameTrain;
-        this.since = since;
         this.onOrder = onOrder;
     }
 
-    public void setTrainPark(int indexTrain, String nameTrain, int since, boolean onOrder){
+    public abstract void startMove ();
+
+    public abstract void brake ();
+
+    public void setIndexTrain(int indexTrain){
         this.indexTrain = indexTrain;
+    }
+
+    public int getIndexTrain(){
+        return this.indexTrain;
+    }
+
+    public void setNameTrain(String nameTrain){
         this.nameTrain = nameTrain;
-        this.since = since;
+    }
+
+    public String getNameTrain() {
+        return this.nameTrain;
+    }
+
+    public void setOnOrder(boolean onOrder){
         this.onOrder = onOrder;
     }
 
-    public void getTrainPark(){
-        System.out.println("IndexTrain in park: " + this.indexTrain);
-        System.out.println("Train: " + this.nameTrain);
-        System.out.println("Since " + this.since);
-        System.out.println("Are train on order? " + this.onOrder);
+    public boolean isOnOrder() {
+        return this.onOrder;
     }
 }

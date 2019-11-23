@@ -1,32 +1,44 @@
 package company.train;
 
 public class LuggageTrain extends TrainPark{
-    private String modelTrain; //модель поезда
-    private String typeCarriage; //тип вагона для перевозки
-    private int maxWeightLuggage; //максимальный вес для погрузки
+    private String typeCarriage;
+    private int maxWeightLuggage;
 
     public LuggageTrain(){}
 
-    public LuggageTrain(int indexTrain, String nameTrain, int since, boolean onOrder){
-        super(indexTrain, nameTrain, since, onOrder);
+    public LuggageTrain(int indexTrain, String nameTrain, boolean onOrder){
+        super(indexTrain, nameTrain, onOrder);
     }
 
-    public LuggageTrain(int indexTrain, String nameTrain, int since, boolean onOrder, String modelTrain, String typeCarriage, int maxWeightLuggage){
-        super(indexTrain, nameTrain, since, onOrder);
-        this.modelTrain = modelTrain;
+    public LuggageTrain(int indexTrain, String nameTrain, boolean onOrder, String typeCarriage, int maxWeightLuggage){
+        super(indexTrain, nameTrain, onOrder);
         this.typeCarriage = typeCarriage;
         this.maxWeightLuggage = maxWeightLuggage;
     }
 
-    public void setLuggageTrain(String modelTrain, String typeCarriage, int maxWeightLuggage){
-        this.modelTrain = modelTrain;
+    public void setTypeCarriage(String typeCarriage) {
         this.typeCarriage = typeCarriage;
+    }
+
+    public void setMaxWeightLuggage(int maxWeightLuggage) {
         this.maxWeightLuggage = maxWeightLuggage;
     }
 
-    public void getLuggageTrain(){
-        System.out.println("Model train: " + this.modelTrain);
-        System.out.println("Type carriage: " + this.typeCarriage);
-        System.out.println("Max weight luggage in carriage: " + this.maxWeightLuggage + "T");
+    public String getTypeCarriage() {
+        return this.typeCarriage;
+    }
+
+    public int getMaxWeightLuggage() {
+        return this.maxWeightLuggage;
+    }
+
+    @Override
+    public void startMove (){
+        System.out.println("Train starts moving!!!");
+    }
+
+    @Override
+    public void brake (){
+        System.out.println("Train brakes!!!");
     }
 }

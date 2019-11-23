@@ -1,32 +1,34 @@
 package company.transportation;
 
 public class CustomerTransportation extends Transportation {
-    private String typeTrain; //тип поезда(плацкарт, купе ...)
-    private int countSeat; //количество посадочных мест
-    private boolean carriageRestaurant = false; //есть ли вагон ресторан
+    private String typeTrain;
+    private int countSeat;
 
     public CustomerTransportation(){}
 
-    public CustomerTransportation(String driver, String modelTrain, String cityDeparture, String cityArrival, int countCarriage){
-        super(driver, modelTrain, cityDeparture, cityArrival, countCarriage);
+    public CustomerTransportation(String driver, String cityDeparture, String cityArrival){
+        super(driver, cityDeparture, cityArrival);
     }
 
-    public CustomerTransportation(String driver, String modelTrain, String cityDeparture, String cityArrival, int countCarriage, String typeTrain, int countSeat, boolean carriageRestaurant){
-        super(driver, modelTrain, cityDeparture, cityArrival, countCarriage);
+    public CustomerTransportation(String driver, String cityDeparture, String cityArrival, String typeTrain, int countSeat){
+        super(driver, cityDeparture, cityArrival);
         this.typeTrain = typeTrain;
         this.countSeat = countSeat;
-        this.carriageRestaurant = carriageRestaurant;
     }
 
-    public void setCustomerTransportation(String typeTrain, int countSeat, boolean carriageRestaurant){
+    public void setTypeTrain(String typeTrain) {
         this.typeTrain = typeTrain;
-        this.countSeat = countSeat;
-        this.carriageRestaurant = carriageRestaurant;
     }
 
-    public void gerCustomerTransportation(){
-        System.out.println("Type train: " + this.typeTrain);
-        System.out.println("Count seats: " + this.countSeat);
-        System.out.println("Has train a carriage restaurant? " + this.carriageRestaurant);
+    public void setCountSeat(int countSeat) {
+        this.countSeat = countSeat;
+    }
+
+    public String getTypeTrain() {
+        return this.typeTrain;
+    }
+
+    public int getCountSeat() {
+        return this.countSeat;
     }
 }

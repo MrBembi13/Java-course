@@ -1,28 +1,34 @@
 package company.transportation;
 
 public class LuggageTransportation extends Transportation{
-    private String partnerCompany; //компании партёры
-    private String typeLuggage; //тип груза перевозки
+    private String partnerCompany;
+    private String typeLuggage;
 
     public LuggageTransportation(){}
 
-    public LuggageTransportation(String driver, String modelTrain, String cityDeparture, String cityArrival, int countCarriage){
-        super(driver, modelTrain, cityDeparture, cityArrival, countCarriage);
+    public LuggageTransportation(String driver, String cityDeparture, String cityArrival){
+        super(driver, cityDeparture, cityArrival);
     }
 
-    public LuggageTransportation(String driver, String modelTrain, String cityDeparture, String cityArrival, int countCarriage, String partnerCompany, String typeLuggage){
-        super(driver, modelTrain, cityDeparture, cityArrival, countCarriage);
+    public LuggageTransportation(String driver, String cityDeparture, String cityArrival, String partnerCompany, String typeLuggage){
+        super(driver, cityDeparture, cityArrival);
         this.partnerCompany = partnerCompany;
         this.typeLuggage = typeLuggage;
     }
 
-    public void setLuggageTransportation(String partnerCompany, String typeLuggage){
+    public void setPartnerCompany(String partnerCompany) {
         this.partnerCompany = partnerCompany;
+    }
+
+    public void setTypeLuggage(String typeLuggage) {
         this.typeLuggage = typeLuggage;
     }
 
-    public void getLuggageTransportation(){
-        System.out.println("Partner company: " + this.partnerCompany);
-        System.out.println("Type luggage: " + this.typeLuggage);
+    public String getPartnerCompany() {
+        return this.partnerCompany;
+    }
+
+    public String getTypeLuggage() {
+        return this.typeLuggage;
     }
 }

@@ -4,30 +4,42 @@ public class Customer extends Person {
 
     private boolean haveAnimals = false;
     private int documentCustomer;
-    private int numberTicket;
 
     public Customer() {}
 
-    public Customer(String nameCustomer, String surnameCustomer, byte ageCustomer, String sexCustomer){
-        super(nameCustomer, surnameCustomer, ageCustomer, sexCustomer);
+    public Customer(String nameCustomer, String surnameCustomer){
+        super(nameCustomer, surnameCustomer);
     }
 
-    public Customer(String nameCustomer, String surnameCustomer, byte ageCustomer, String sexCustomer, boolean haveAnimals, int documentCustomer, int numberTicket) {
-        super(nameCustomer, surnameCustomer, ageCustomer, sexCustomer);
+    public Customer(String nameCustomer, String surnameCustomer, boolean haveAnimals, int documentCustomer) {
+        super(nameCustomer, surnameCustomer);
         this.haveAnimals = haveAnimals;
         this.documentCustomer = documentCustomer;
-        this.numberTicket = numberTicket;
     }
 
-    public void setCustomer(boolean haveAnimals, int documentCustomer, int numberTicket) {
+    public void setHaveAnimals(boolean haveAnimals) {
         this.haveAnimals = haveAnimals;
-        this.documentCustomer = documentCustomer;
-        this.numberTicket = numberTicket;
     }
 
-    public void getCustomer(){
-        System.out.println("Have you some animals?  " + this.haveAnimals);
-        System.out.println("Number document: " + this.documentCustomer);
-        System.out.println("Number ticket: " + this.numberTicket);
+    public void setDocumentCustomer(int documentCustomer) {
+        this.documentCustomer = documentCustomer;
+    }
+
+    public int getDocumentCustomer() {
+        return this.documentCustomer;
+    }
+
+    public boolean isHaveAnimals() {
+        return this.haveAnimals;
+    }
+
+    @Override
+    public void walk(){
+        System.out.println("walking");
+    }
+
+    @Override
+    public void stay(){
+        System.out.println("stay");
     }
 }

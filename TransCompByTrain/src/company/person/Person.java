@@ -1,31 +1,33 @@
 package company.person;
 
-public class Person {
+public abstract class Person {
     protected String name;
     protected String surname;
-    protected byte age;
-    protected String sex;
+
+    public abstract void walk();
+
+    public abstract void stay();
 
     public Person(){}
 
-    public Person(String name, String surname, byte age, String sex){
+    public Person(String name, String surname){
         this.name = name;
         this.surname = surname;
-        this.age = age;
-        this.sex = sex;
     }
 
-    public void setPerson(String namePerson, String surnamePerson, byte agePerson, String sexPerson){
+    public void setName(String namePerson){
         this.name = namePerson;
-        this.surname =surnamePerson;
-        this.age = agePerson;
-        this.sex = sexPerson;
     }
 
-    public void getPerson(){
+    public void setSurname(String surnamePerson){
+        this.name = surnamePerson;
+    }
+
+    public void getName(){
         System.out.println("Name: " + this.name);
-        System.out.println("Surnmae: " + this.surname);
-        System.out.println("Sex: " + this.sex);
-        System.out.println("Age: " + this.age);
+    }
+
+    public void getSurname(){
+        System.out.println("Surname: " + this.surname);
     }
 }
