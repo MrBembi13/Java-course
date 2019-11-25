@@ -17,6 +17,8 @@ public abstract class TrainPark {
 
     public abstract void brake ();
 
+    public abstract void typeTrain();
+
     public void setIndexTrain(int indexTrain){
         this.indexTrain = indexTrain;
     }

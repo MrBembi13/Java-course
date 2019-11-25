@@ -23,11 +23,11 @@ public abstract class Person {
         this.name = surnamePerson;
     }
 
-    public void getName(){
-        System.out.println("Name: " + this.name);
+    public String getName(){
+        return this.name;
     }
 
-    public void getSurname(){
-        System.out.println("Surname: " + this.surname);
+    public String getSurname(){
+        return this.surname;
     }
 }

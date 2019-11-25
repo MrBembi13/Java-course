@@ -5,7 +5,7 @@ public class Customer extends Person {
     private boolean haveAnimals = false;
     private int documentCustomer;
 
-    public Customer() {}
+    public Customer() {}    
 
     public Customer(String nameCustomer, String surnameCustomer){
         super(nameCustomer, surnameCustomer);
@@ -15,6 +15,14 @@ public class Customer extends Person {
         super(nameCustomer, surnameCustomer);
         this.haveAnimals = haveAnimals;
         this.documentCustomer = documentCustomer;
+    }
+
+    public int sumPriceTicket(int priceTicket, int howManyPerson){
+        return (priceTicket*howManyPerson);
+    }
+
+    public int sumPriceTicket(int priceTicket, int howManyPerson, int howManyVeil){
+        return (priceTicket*howManyPerson) + (50 * howManyVeil);
     }
 
     public void setHaveAnimals(boolean haveAnimals) {
