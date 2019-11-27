@@ -1,13 +1,13 @@
 package company.train;
 
 public abstract class TrainPark {
-    protected int indexTrain;
-    protected String nameTrain;
-    protected boolean onOrder = false;
+    private int indexTrain;
+    private String nameTrain;
+    private boolean onOrder = false;
 
-    public TrainPark(){}
+    TrainPark(){}
 
-    public TrainPark(int indexTrain, String nameTrain, boolean onOrder){
+    TrainPark(int indexTrain, String nameTrain, boolean onOrder){
         this.indexTrain = indexTrain;
         this.nameTrain = nameTrain;
         this.onOrder = onOrder;

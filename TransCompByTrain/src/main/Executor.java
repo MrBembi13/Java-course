@@ -27,7 +27,8 @@ public class Executor {
         Customer rudyk = new Customer("Vasyl", "Rudyk", false, 14523);
         System.out.println("Name - " + rudyk.getName());
         System.out.println("Surname - " + rudyk.getSurname());
-        System.out.println("Total price - " + rudyk.sumPriceTicket(100, 1, 1));
+        System.out.println("Total price - " + rudyk.sumPriceTicket(100, 1, 1) + " UAH");
+        System.out.println("Total price - " + String.format("%.2f", rudyk.sumPriceTicket(500.156f, 2)) + " UAH");
 
         System.out.println();
 
@@ -43,6 +44,14 @@ public class Executor {
         for (TrainPark t: array) {
             t.typeTrain();
         }
+
+        System.out.println();
+
+        ural.getCountLuggageTrain();
+
+        System.out.println();
+
+
 
     }
 }

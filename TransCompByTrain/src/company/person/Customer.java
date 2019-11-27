@@ -4,6 +4,7 @@ public class Customer extends Person {
 
     private boolean haveAnimals = false;
     private int documentCustomer;
+    private final float pdvTicket = 1.15f;
 
     public Customer() {}    
 
@@ -17,12 +18,12 @@ public class Customer extends Person {
         this.documentCustomer = documentCustomer;
     }
 
-    public int sumPriceTicket(int priceTicket, int howManyPerson){
-        return (priceTicket*howManyPerson);
+    public float sumPriceTicket(float priceTicket, int howManyPerson){
+        return (priceTicket*howManyPerson) * pdvTicket;
     }
 
-    public int sumPriceTicket(int priceTicket, int howManyPerson, int howManyVeil){
-        return (priceTicket*howManyPerson) + (50 * howManyVeil);
+    public float sumPriceTicket(float priceTicket, int howManyPerson, int howManyVeil){
+        return ((priceTicket*howManyPerson) + (50 * howManyVeil)) * pdvTicket;
     }
 
     public void setHaveAnimals(boolean haveAnimals) {

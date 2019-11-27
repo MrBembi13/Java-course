@@ -1,21 +1,32 @@
 package company.train;
 
+import java.util.logging.SocketHandler;
+
 public class LuggageTrain extends TrainPark implements TrainInfo{
     private String typeCarriage;
     private int maxWeightLuggage;
     private boolean canTrainWork = true;
     private boolean fullTankOil = true;
+    private static int countLuggageTrain = 0;
 
-    public LuggageTrain(){}
+    public LuggageTrain(){
+        countLuggageTrain++;
+    }
 
     public LuggageTrain(int indexTrain, String nameTrain, boolean onOrder){
         super(indexTrain, nameTrain, onOrder);
+        countLuggageTrain++;
     }
 
     public LuggageTrain(int indexTrain, String nameTrain, boolean onOrder, String typeCarriage, int maxWeightLuggage){
         super(indexTrain, nameTrain, onOrder);
         this.typeCarriage = typeCarriage;
         this.maxWeightLuggage = maxWeightLuggage;
+        countLuggageTrain++;
+    }
+
+    public void getCountLuggageTrain(){
+        System.out.println(countLuggageTrain);
     }
 
     public void setTypeCarriage(String typeCarriage) {
