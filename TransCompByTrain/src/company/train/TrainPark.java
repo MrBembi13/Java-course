@@ -1,14 +1,13 @@
 package company.train;
 
 public abstract class TrainPark {
-    private int indexTrain;
     private String nameTrain;
     private boolean onOrder = false;
 
     TrainPark(){}
 
-    TrainPark(int indexTrain, String nameTrain, boolean onOrder){
-        this.indexTrain = indexTrain;
+    TrainPark( String nameTrain, boolean onOrder){
+        //this.indexTrain = indexTrain;
         this.nameTrain = nameTrain;
         this.onOrder = onOrder;
     }
@@ -19,14 +18,14 @@ public abstract class TrainPark {
 
     public abstract void typeTrain();
 
-    public void setIndexTrain(int indexTrain){
+    /*public void setIndexTrain(int indexTrain){
         this.indexTrain = indexTrain;
-    }
+    }*/
 
-    public int getIndexTrain(){
+    /*public int getIndexTrain(){
         return this.indexTrain;
     }
-
+*/
     public void setNameTrain(String nameTrain){
         this.nameTrain = nameTrain;
     }

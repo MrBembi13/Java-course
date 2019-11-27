@@ -15,7 +15,7 @@ public class Executor {
 
         System.out.println();
 
-        LuggageTrain ural = new LuggageTrain(24, "ural", false, "platform", 50);
+        LuggageTrain ural = new LuggageTrain("ural", false, "platform", 50);
         System.out.println("Name - " + ural.getNameTrain());
         System.out.println("Train on order - " + ural.isOnOrder());
         ural.setFullTankOil(false);
@@ -32,17 +32,32 @@ public class Executor {
 
         System.out.println();
 
-        CustomerTrain peugeot = new CustomerTrain(12, "peugeot", false);
-        LuggageTrain vaz = new LuggageTrain(13, "vaz", true);
+        CustomerTrain peugeot = new CustomerTrain("peugeot", false);
+        LuggageTrain vaz = new LuggageTrain("vaz", true);
+        LuggageTrain kaz = new LuggageTrain("kaz", true);
+        LuggageTrain maz = new LuggageTrain("maz", false);
+        LuggageTrain naz = new LuggageTrain("naz", true);
 
+        LuggageTrain [] arrayLT = {ural, vaz, kaz, maz, naz};
 
-        TrainPark bmw = new CustomerTrain();
-        TrainPark mercedes = new CustomerTrain();
-        TrainPark honda = new LuggageTrain();
-
-        TrainPark [] array = {bmw, mercedes, honda};
-        for (TrainPark t: array) {
-            t.typeTrain();
+        for (LuggageTrain a: arrayLT) {
+            switch (a.getIndexTrain()) {
+                case 1:
+                    System.out.println("I`m Ural!!!");
+                    break;
+                case 2:
+                    System.out.println("I`m Vaz!!!");
+                    break;
+                case 3:
+                    System.out.println("I`m Kaz!!!");
+                    break;
+                case 4:
+                    System.out.println("I`m Maz!!!");
+                    break;
+                case 5:
+                    System.out.println("I`m Naz!!!");
+                    break;
+            }
         }
 
         System.out.println();
@@ -51,6 +66,15 @@ public class Executor {
 
         System.out.println();
 
+        // polymorph
+        /*TrainPark bmw = new CustomerTrain();
+        TrainPark mercedes = new CustomerTrain();
+        TrainPark honda = new LuggageTrain();
+
+        TrainPark [] array = {bmw, mercedes, honda};
+        for (TrainPark t: array) {
+            t.typeTrain();
+        }*/
 
 
     }

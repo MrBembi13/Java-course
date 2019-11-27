@@ -10,13 +10,13 @@ public class CustomerTrain extends TrainPark implements TrainInfo{
         countCustomerTrain++;
     }
 
-    public CustomerTrain(int indexTrain, String nameTrain, boolean onOrder){
-        super(indexTrain, nameTrain, onOrder);
+    public CustomerTrain(String nameTrain, boolean onOrder){
+        super(nameTrain, onOrder);
         countCustomerTrain++;
     }
 
-    public CustomerTrain(int indexTrain, String nameTrain, boolean onOrder, String typeTrain){
-        super(indexTrain, nameTrain, onOrder);
+    public CustomerTrain(String nameTrain, boolean onOrder, String typeTrain){
+        super(nameTrain, onOrder);
         this.typeTrain = typeTrain;
         countCustomerTrain++;
     }

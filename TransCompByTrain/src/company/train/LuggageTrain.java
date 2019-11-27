@@ -8,21 +8,29 @@ public class LuggageTrain extends TrainPark implements TrainInfo{
     private boolean canTrainWork = true;
     private boolean fullTankOil = true;
     private static int countLuggageTrain = 0;
+    private int indexTrain = 0;
 
     public LuggageTrain(){
         countLuggageTrain++;
+        this.indexTrain = countLuggageTrain;
     }
 
-    public LuggageTrain(int indexTrain, String nameTrain, boolean onOrder){
-        super(indexTrain, nameTrain, onOrder);
+    public LuggageTrain( String nameTrain, boolean onOrder){
+        super(nameTrain, onOrder);
         countLuggageTrain++;
+        this.indexTrain = countLuggageTrain;
     }
 
-    public LuggageTrain(int indexTrain, String nameTrain, boolean onOrder, String typeCarriage, int maxWeightLuggage){
-        super(indexTrain, nameTrain, onOrder);
+    public LuggageTrain(String nameTrain, boolean onOrder, String typeCarriage, int maxWeightLuggage){
+        super(nameTrain, onOrder);
         this.typeCarriage = typeCarriage;
         this.maxWeightLuggage = maxWeightLuggage;
         countLuggageTrain++;
+        this.indexTrain = countLuggageTrain;
+    }
+
+    public int getIndexTrain (){
+        return indexTrain;
     }
 
     public void getCountLuggageTrain(){
