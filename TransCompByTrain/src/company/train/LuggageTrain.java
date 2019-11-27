@@ -33,7 +33,7 @@ public class LuggageTrain extends TrainPark implements TrainInfo{
         return indexTrain;
     }
 
-    public void getCountLuggageTrain(){
+    public static void getCountLuggageTrain(){
         System.out.println(countLuggageTrain);
     }
 

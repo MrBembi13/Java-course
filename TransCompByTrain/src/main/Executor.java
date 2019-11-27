@@ -62,7 +62,7 @@ public class Executor {
 
         System.out.println();
 
-        ural.getCountLuggageTrain();
+        LuggageTrain.getCountLuggageTrain();
 
         System.out.println();
 

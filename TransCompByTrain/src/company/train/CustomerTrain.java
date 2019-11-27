@@ -25,6 +25,14 @@ public class CustomerTrain extends TrainPark implements TrainInfo{
         this.indexTrain = countCustomerTrain;
     }
 
+    public static void getCountCustomerTrain(){
+        System.out.println(countCustomerTrain);
+    }
+
+    public int getIndexTrain(){
+        return indexTrain;
+    }
+
     public void setTypeTrain(String typeTrain) {
         this.typeTrain = typeTrain;
     }
