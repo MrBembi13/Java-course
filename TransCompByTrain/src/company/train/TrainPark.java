@@ -7,7 +7,6 @@ public abstract class TrainPark {
     TrainPark(){}
 
     TrainPark( String nameTrain, boolean onOrder){
-        //this.indexTrain = indexTrain;
         this.nameTrain = nameTrain;
         this.onOrder = onOrder;
     }
@@ -18,14 +17,6 @@ public abstract class TrainPark {
 
     public abstract void typeTrain();
 
-    /*public void setIndexTrain(int indexTrain){
-        this.indexTrain = indexTrain;
-    }*/
-
-    /*public int getIndexTrain(){
-        return this.indexTrain;
-    }
-*/
     public void setNameTrain(String nameTrain){
         this.nameTrain = nameTrain;
     }

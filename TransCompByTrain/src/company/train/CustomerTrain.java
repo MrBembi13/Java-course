@@ -5,20 +5,24 @@ public class CustomerTrain extends TrainPark implements TrainInfo{
     private boolean canTrainWork = true;
     private boolean fullTankOil = true;
     private static int countCustomerTrain = 0;
+    private int indexTrain = 0;
 
     public CustomerTrain(){
         countCustomerTrain++;
+        this.indexTrain = countCustomerTrain;
     }
 
     public CustomerTrain(String nameTrain, boolean onOrder){
         super(nameTrain, onOrder);
         countCustomerTrain++;
+        this.indexTrain = countCustomerTrain;
     }
 
     public CustomerTrain(String nameTrain, boolean onOrder, String typeTrain){
         super(nameTrain, onOrder);
         this.typeTrain = typeTrain;
         countCustomerTrain++;
+        this.indexTrain = countCustomerTrain;
     }
 
     public void setTypeTrain(String typeTrain) {
