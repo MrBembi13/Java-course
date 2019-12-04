@@ -4,7 +4,7 @@ public class Customer extends Person {
 
     private boolean haveAnimals = false;
     private int documentCustomer;
-    private final float PDV_TIcket = 1.15f;
+    public final float PDV_TICKET = 1.15f;
 
     public Customer() {}    
 
@@ -19,11 +19,11 @@ public class Customer extends Person {
     }
 
     public float sumPriceTicket(float priceTicket, int howManyPerson){
-        return (priceTicket*howManyPerson) * PDV_TIcket;
+        return (priceTicket*howManyPerson) * PDV_TICKET;
     }
 
     public float sumPriceTicket(float priceTicket, int howManyPerson, int howManyVeil){
-        return ((priceTicket*howManyPerson) + (50 * howManyVeil)) * PDV_TIcket;
+        return ((priceTicket*howManyPerson) + (50 * howManyVeil)) * PDV_TICKET;
     }
 
     public void setHaveAnimals(boolean haveAnimals) {

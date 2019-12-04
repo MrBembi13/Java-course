@@ -1,16 +1,16 @@
 package main;
 
 import company.person.Customer;
-import company.train.CustomerTrain;
 import company.train.LuggageTrain;
-import company.train.TrainInfo;
-import company.train.TrainPark;
-import company.transportation.CustomerTransportation;
+
+import java.io.*;
+import java.util.*;
 
 public class Executor {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        CustomerTransportation interCity = new CustomerTransportation("Stepanovych", "Chernivtsi", "Minsk");
+        // switch, final, static
+       /* CustomerTransportation interCity = new CustomerTransportation("Stepanovych", "Chernivtsi", "Minsk");
         System.out.println("Driver - " + interCity.getDriver());
 
         System.out.println();
@@ -64,7 +64,7 @@ public class Executor {
 
         LuggageTrain.getCountLuggageTrain();
 
-        System.out.println();
+        System.out.println();*/
 
         // polymorph
         /*TrainPark bmw = new CustomerTrain();
@@ -76,6 +76,27 @@ public class Executor {
             t.typeTrain();
         }*/
 
+        LuggageTrain bmw = new LuggageTrain("BMW", false);
+        LuggageTrain bmw2 = new LuggageTrain("BMW", true);
+        LuggageTrain honda = new LuggageTrain("HONDA", false);
+
+        Set<String> nameTrains = new HashSet<String>();
+        nameTrains.add(bmw.getNameTrain());
+        nameTrains.add(bmw2.getNameTrain());
+        nameTrains.add(honda.getNameTrain());
+
+        for (String str: nameTrains) {
+            System.out.println(str);
+        }
+
+        bmw.setTypeCarriage("Platform");
+        bmw2.setTypeCarriage("Box");
+
+        Map<Integer, String> typeCarriage = new HashMap<Integer, String>();
+        typeCarriage.put(1, bmw.getTypeCarriage());
+        typeCarriage.put(2, bmw2.getTypeCarriage());
+
+        System.out.println(typeCarriage.get(2));
 
     }
 }
