@@ -98,5 +98,20 @@ public class Executor {
 
         System.out.println(typeCarriage.get(2));
 
+        Customer customer1 = new Customer("Vasya", "Rudyk");
+        Customer customer2 = new Customer("Tanya", "Rudyk");
+        Customer customer3 = new Customer("Denys", "Holiney");
+        Customer customer4 = new Customer("Oleh", "Chepak");
+        Customer customer5 = new Customer("Vasya", "Holiney");
+
+        ArrayList<Customer> customers = new ArrayList<>();
+        customers.add(customer1);
+        customers.add(customer2);
+        customers.add(customer3);
+        customers.add(customer4);
+        customers.add(customer5);
+
+        Customer vasya = customers.get(4);
+        System.out.println(vasya);
     }
 }

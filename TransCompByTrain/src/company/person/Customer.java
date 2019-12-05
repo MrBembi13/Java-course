@@ -51,4 +51,9 @@ public class Customer extends Person {
     public void stay(){
         System.out.println("stay");
     }
+
+    @Override
+    public String toString() {
+        return "Customer - " + name + " " + surname;
+    }
 }
