@@ -4,6 +4,7 @@ import company.person.Customer;
 import company.train.CustomerTrain;
 import company.train.LuggageTrain;
 import company.train.TrainPark;
+import company.transportation.CustomerTransportation;
 
 import java.io.*;
 import java.util.*;
@@ -12,7 +13,7 @@ public class Executor {
     public static void main(String[] args) throws IOException {
 
         // switch, final, static
-       /* CustomerTransportation interCity = new CustomerTransportation("Stepanovych", "Chernivtsi", "Minsk");
+        CustomerTransportation interCity = new CustomerTransportation("Stepanovych", "Chernivtsi", "Minsk");
         System.out.println("Driver - " + interCity.getDriver());
 
         System.out.println();
@@ -34,7 +35,6 @@ public class Executor {
 
         System.out.println();
 
-        CustomerTrain peugeot = new CustomerTrain("peugeot", false);
         LuggageTrain vaz = new LuggageTrain("vaz", true);
         LuggageTrain kaz = new LuggageTrain("kaz", true);
         LuggageTrain maz = new LuggageTrain("maz", false);
@@ -66,17 +66,7 @@ public class Executor {
 
         LuggageTrain.getCountLuggageTrain();
 
-        System.out.println();*/
-
-        // polymorphism
-        TrainPark bmw = new CustomerTrain();
-        TrainPark mercedes = new CustomerTrain();
-        TrainPark honda = new LuggageTrain();
-
-        TrainPark [] array = {bmw, mercedes, honda};
-        for (TrainPark t: array) {
-            t.typeTrain();
-        }
+        System.out.println();
 
         /*LuggageTrain bmw = new LuggageTrain("BMW", false);
         LuggageTrain bmw2 = new LuggageTrain("BMW", true);
