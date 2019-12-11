@@ -1,12 +1,17 @@
 package company.person;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Customer extends Person {
 
     private boolean haveAnimals = false;
     private int documentCustomer;
     public final float PDV_TICKET = 1.15f;
+    private ArrayList<Customer> customers = new ArrayList<>();
 
-    public Customer() {}    
+    public Customer() {
+    }
 
     public Customer(String nameCustomer, String surnameCustomer){
         super(nameCustomer, surnameCustomer);
@@ -16,6 +21,14 @@ public class Customer extends Person {
         super(nameCustomer, surnameCustomer);
         this.haveAnimals = haveAnimals;
         this.documentCustomer = documentCustomer;
+    }
+
+    public void addCustomers (Customer customer){
+        customers.add(customer);
+    }
+
+    public List<Customer> getCustomers (){
+        return customers;
     }
 
     public float sumPriceTicket(float priceTicket, int howManyPerson){

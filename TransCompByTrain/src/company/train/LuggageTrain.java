@@ -1,6 +1,9 @@
 package company.train;
 
-import java.util.logging.SocketHandler;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 public class LuggageTrain extends TrainPark implements TrainInfo{
     private String typeCarriage;
@@ -9,6 +12,8 @@ public class LuggageTrain extends TrainPark implements TrainInfo{
     private boolean fullTankOil = true;
     private static int countLuggageTrain = 0;
     private int indexTrain = 0;
+    private static Set<String> nameTrains = new HashSet<>();
+    private Map<Integer, String> typeCarriages = new HashMap<Integer, String>();
 
     public LuggageTrain(){
         countLuggageTrain++;
@@ -27,6 +32,24 @@ public class LuggageTrain extends TrainPark implements TrainInfo{
         this.maxWeightLuggage = maxWeightLuggage;
         countLuggageTrain++;
         this.indexTrain = countLuggageTrain;
+    }
+
+    public void addNameTrains (String name){
+        nameTrains.add(name);
+    }
+
+    public static Set<String> getNameTrains (){
+        if(nameTrains != null)
+            return nameTrains;
+        else return null;
+    }
+
+    public void addTypeCarriages (int index, String typeCarriage){
+        typeCarriages.put(index, typeCarriage);
+    }
+
+    public String getTypeCarriages (){
+        return typeCarriages.get(getIndexTrain());
     }
 
     public int getIndexTrain (){
