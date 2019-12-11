@@ -1,7 +1,9 @@
 package main;
 
 import company.person.Customer;
+import company.train.CustomerTrain;
 import company.train.LuggageTrain;
+import company.train.TrainPark;
 
 import java.io.*;
 import java.util.*;
@@ -66,17 +68,17 @@ public class Executor {
 
         System.out.println();*/
 
-        // polymorph
-        /*TrainPark bmw = new CustomerTrain();
+        // polymorphism
+        TrainPark bmw = new CustomerTrain();
         TrainPark mercedes = new CustomerTrain();
         TrainPark honda = new LuggageTrain();
 
         TrainPark [] array = {bmw, mercedes, honda};
         for (TrainPark t: array) {
             t.typeTrain();
-        }*/
+        }
 
-        LuggageTrain bmw = new LuggageTrain("BMW", false);
+        /*LuggageTrain bmw = new LuggageTrain("BMW", false);
         LuggageTrain bmw2 = new LuggageTrain("BMW", true);
         LuggageTrain honda = new LuggageTrain("HONDA", false);
 
@@ -112,6 +114,6 @@ public class Executor {
         customers.add(customer5);
 
         Customer vasya = customers.get(4);
-        System.out.println(vasya);
+        System.out.println(vasya);*/
     }
 }
