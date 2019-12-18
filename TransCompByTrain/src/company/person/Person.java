@@ -20,7 +20,7 @@ public abstract class Person {
     }
 
     public void setSurname(String surnamePerson){
-        this.name = surnamePerson;
+        this.surname = surnamePerson;
     }
 
     public String getName(){
