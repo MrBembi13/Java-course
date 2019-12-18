@@ -20,17 +20,4 @@ public class InputKeyboard {
         }
         return str;
     }
-
-    //not working
-    /*public String inputSurname() {
-        String str1;
-        try {
-            str1 = bufferedReader.readLine();
-            if (str1.equals(""))
-                throw new MyException("String can't be empty!");
-        } catch (IOException | MyException ignored){
-            return ignored.getMessage();
-        }
-        return str1;
-    }*/
 }
