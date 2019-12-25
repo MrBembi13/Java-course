@@ -1,0 +1,9 @@
+<body>
+	<customers>
+		<customer name="Kostya" animal="yes" document="164595" />
+		<customer name="Vitalina" animal="no" document="124753" />
+		<customer name="Anna" animal="no" document="023832" />
+		<customer name="Dodik" animal="yes" document="737125" />
+		<customer name="Olaf" animal="no" document="123532" />
+	</customers>
+</body>

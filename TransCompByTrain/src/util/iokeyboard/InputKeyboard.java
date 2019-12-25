@@ -1,4 +1,4 @@
-package iokeyboard;
+package util.iokeyboard;
 
 import exception.MyException;
 

@@ -1,7 +1,7 @@
 package main;
 
 import company.person.Customer;
-import iokeyboard.InputKeyboard;
+import util.iokeyboard.InputKeyboard;
 
 public class Executor {
     public static void main(String[] args) {
