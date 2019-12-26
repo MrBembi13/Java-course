@@ -1,5 +1,3 @@
-package main;
-
 import company.person.Customer;
 import util.iokeyboard.InputKeyboard;
 
