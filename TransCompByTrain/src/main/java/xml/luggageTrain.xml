@@ -1,0 +1,15 @@
+<body>
+	<luggageTrains>
+		<parks>
+			<park num="1">
+				<train name="BMW" order="no" maxWeight="15T" />
+				<train name="Peugeot" order="yes" maxWeight="17T" />
+				<train name="Lada" order="no" maxWeight="14T" />
+			</park>
+			<park num="2">
+				<train name="Mercedes" order="yes" maxWeight="15T" />
+				<train name="Smart" order="no" maxWeight="13T" />
+			</park>
+		</parks>
+	</luggageTrains>
+</body>
