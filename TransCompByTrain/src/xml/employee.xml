@@ -1,9 +1,0 @@
-<body>
-	<employees>
-		<employee name="Vasyl" post="boss" wage="50000" />
-		<employee name="Vlad" post="senior java develovper" wage="30000" />
-		<employee name="Tanya" post="secretary" wage="15000" />
-		<employee name="Denys" post="senior front end develovper" wage="25000" />
-		<employee name="Oleh" post="senior front end develovper" wage="25000" />
-	</employees>
-</body>
