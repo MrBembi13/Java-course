@@ -1,78 +1,55 @@
 package company.train;
 
-public class CustomerTrain extends TrainPark implements TrainInfo{
-    private String typeTrain;
-    private boolean canTrainWork = true;
-    private boolean fullTankOil = true;
-    private static int countCustomerTrain = 0;
-    private int indexTrain = 0;
+import company.transportation.CustomerTransportation;
 
-    public CustomerTrain(){
-        countCustomerTrain++;
-        this.indexTrain = countCustomerTrain;
+import java.util.List;
+
+public class CustomerTrain {
+
+    private Long id_customerTrain;
+    private String nameTrain;
+    private String typeCarriage;
+    private List<CustomerTransportation> customerTransportations;
+
+    public Long getId_customerTrain() {
+        return id_customerTrain;
     }
 
-    public CustomerTrain(String nameTrain, boolean onOrder){
-        super(nameTrain, onOrder);
-        countCustomerTrain++;
-        this.indexTrain = countCustomerTrain;
+    public void setId_customerTrain(Long id_customerTrain) {
+        this.id_customerTrain = id_customerTrain;
     }
 
-    public CustomerTrain(String nameTrain, boolean onOrder, String typeTrain){
-        super(nameTrain, onOrder);
-        this.typeTrain = typeTrain;
-        countCustomerTrain++;
-        this.indexTrain = countCustomerTrain;
+    public String getNameTrain() {
+        return nameTrain;
     }
 
-    public static void getCountCustomerTrain(){
-        System.out.println(countCustomerTrain);
+    public void setNameTrain(String nameTrain) {
+        this.nameTrain = nameTrain;
     }
 
-    public int getIndexTrain(){
-        return indexTrain;
+    public String getTypeCarriage() {
+        return typeCarriage;
     }
 
-    public void setTypeTrain(String typeTrain) {
-        this.typeTrain = typeTrain;
+    public void setTypeCarriage(String typeCarriage) {
+        this.typeCarriage = typeCarriage;
     }
 
-    public String getTypeTrain() {
-        return this.typeTrain;
+    public List<CustomerTransportation> getCustomerTransportations() {
+        return customerTransportations;
     }
 
-    public void setCanTrainWork(boolean canTrainWork){
-        this.canTrainWork = canTrainWork;
-    }
-
-    public void setFullTankOil(boolean fullTankOil) {
-        this.fullTankOil = fullTankOil;
+    public void setCustomerTransportations(List<CustomerTransportation> customerTransportations) {
+        this.customerTransportations = customerTransportations;
     }
 
     @Override
-    public void startMove (){
-        System.out.println("Train starts moving!!!");
-    }
-
-    @Override
-    public void brake (){
-        System.out.println("Train brakes!!!");
-    }
-
-    @Override
-    public void fullTankOil(){
-        if (fullTankOil) System.out.println("Train has full tank.");
-        else System.out.println("Train hasn't full tank.");
-    }
-
-    @Override
-    public void canTrainWorks() {
-        if (canTrainWork) System.out.println("Train can go on order.");
-        else System.out.println("Train can't go on order.");
-    }
-
-    @Override
-    public void typeTrain(){
-        System.out.println("This is Customer train!!!");
+    public String toString() {
+        return "CustomerTrain{" +
+                "id_customerTrain=" + id_customerTrain +
+                ", nameTrain='" + nameTrain + '\'' +
+                ", typeCarriage='" + typeCarriage + '\'' +
+                ", customerTransportations=" + customerTransportations +
+                '}';
     }
 }

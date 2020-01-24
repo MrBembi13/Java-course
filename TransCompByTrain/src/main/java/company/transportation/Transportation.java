@@ -1,39 +1,53 @@
 package company.transportation;
 
-public abstract class Transportation {
-    protected String driver;
-    protected String cityDeparture;
-    protected String cityArrival;
+import company.person.Employee;
 
-    public Transportation(){}
+public class Transportation {
 
-    public Transportation(String driver, String cityDeparture, String cityArrival){
-        this.driver = driver;
-        this.cityDeparture = cityDeparture;
-        this.cityArrival = cityArrival;
+    private Long id_transportation;
+    private Employee driver;
+    private String cityDeparture;
+    private String cityArrival;
+
+    public Long getId_transportation() {
+        return id_transportation;
     }
 
-    public void setDriver(String driver){
+    public void setId_transportation(Long id_transportation) {
+        this.id_transportation = id_transportation;
+    }
+
+    public Employee getDriver() {
+        return driver;
+    }
+
+    public void setDriver(Employee driver) {
         this.driver = driver;
+    }
+
+    public String getCityDeparture() {
+        return cityDeparture;
     }
 
     public void setCityDeparture(String cityDeparture) {
         this.cityDeparture = cityDeparture;
     }
 
+    public String getCityArrival() {
+        return cityArrival;
+    }
+
     public void setCityArrival(String cityArrival) {
         this.cityArrival = cityArrival;
     }
 
-    public String getDriver() {
-        return this.driver;
-    }
-
-    public String getCityDeparture() {
-        return this.cityDeparture;
-    }
-
-    public String getCityArrival() {
-        return this.cityArrival;
+    @Override
+    public String toString() {
+        return "Transportation{" +
+                "id_transportation=" + id_transportation +
+                ", driver=" + driver +
+                ", cityDeparture='" + cityDeparture + '\'' +
+                ", cityArrival='" + cityArrival + '\'' +
+                '}';
     }
 }

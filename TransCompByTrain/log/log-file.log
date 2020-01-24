@@ -2,3 +2,554 @@
 2020-01-11 12:26:52 INFO  UseLogger:9 - All are good!!!
 2020-01-11 12:27:30 INFO  UseLogger:9 - All are good!!!
 2020-01-11 12:27:33 INFO  UseLogger:9 - All are good!!!
+2020-01-21 02:49:04 INFO  UseLogger:9 - All are good!!!
+2020-01-21 02:49:06 INFO  UseLogger:9 - All are good!!!
+2020-01-22 18:45:48 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 18:45:48 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 18:45:48 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 18:45:48 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 18:45:48 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 18:45:48 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 18:49:51 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 18:49:51 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 18:49:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 18:49:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 18:49:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 18:49:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 18:53:21 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 18:53:21 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 18:53:21 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 18:53:21 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 18:53:21 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 18:53:21 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:04:26 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:04:26 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:04:26 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:04:26 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:04:26 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:04:26 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:11:32 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:11:32 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:11:32 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:11:32 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:11:32 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:11:32 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:16:09 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:16:09 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:16:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:16:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:16:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:16:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:16:33 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:16:33 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:16:33 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:16:33 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:16:33 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:16:33 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:18:51 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:18:51 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:18:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:18:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:18:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:18:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:19:40 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:19:40 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:19:40 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:19:40 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:19:40 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:19:40 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:21:18 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:21:18 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:21:18 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:21:18 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:21:18 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:21:18 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:21:47 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:21:47 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:21:47 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:21:47 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:21:47 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:21:47 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:22:05 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:22:05 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:22:05 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:22:05 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:22:05 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:22:05 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:22:29 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:22:29 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:22:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:22:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:22:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:22:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:22:53 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:22:53 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:22:53 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:22:53 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:22:53 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:22:53 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:32:13 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:32:13 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:32:13 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:32:13 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:32:13 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:32:13 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:53:46 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:53:46 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:53:46 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:53:46 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:53:46 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:53:46 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:57:47 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:57:47 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 19:57:47 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:57:47 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:57:47 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 19:57:47 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 20:05:18 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 20:05:18 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 20:05:18 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 20:05:18 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 20:05:18 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 20:05:18 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 20:05:37 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 20:05:37 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 20:05:37 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 20:05:37 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 20:05:37 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 20:05:37 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:48:59 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 22:48:59 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 22:48:59 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:48:59 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:48:59 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:48:59 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:49:32 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 22:49:32 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 22:49:32 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:49:32 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:49:32 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:49:32 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:50:14 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 22:50:14 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 22:50:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:50:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:50:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:50:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:50:14 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-22 22:54:13 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 22:54:13 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 22:54:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:54:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:54:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:54:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 22:54:14 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-22 23:01:50 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 23:01:50 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-22 23:01:50 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 23:01:50 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 23:01:50 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 23:01:50 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-22 23:01:50 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 16:05:41 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 16:05:41 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 16:05:41 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 16:05:41 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 16:05:41 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 16:05:41 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 16:05:41 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 17:40:34 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 17:40:34 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 17:40:34 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:40:34 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:40:34 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:40:34 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:40:34 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 17:44:27 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 17:44:27 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 17:44:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:44:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:44:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:44:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:44:27 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 17:48:02 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 17:48:02 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 17:48:02 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:48:02 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:48:02 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:48:02 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:48:02 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 17:48:48 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 17:48:48 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 17:48:48 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:48:48 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:48:48 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:48:48 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:48:48 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 17:49:10 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 17:49:10 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 17:49:10 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:49:10 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:49:10 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:49:10 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 17:49:10 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 18:25:21 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:25:21 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:25:21 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:25:21 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:25:21 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:25:21 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:25:21 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 18:30:31 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:30:31 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:30:31 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:30:31 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:30:31 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:30:31 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:30:31 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 18:39:51 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:39:51 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:39:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:39:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:39:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:39:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:39:52 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 18:42:54 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:42:54 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:42:54 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:42:54 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:42:54 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:42:54 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:42:54 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 18:48:22 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:48:22 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:48:22 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:48:22 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:48:22 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:48:22 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:48:22 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 18:48:24 DEBUG PooledDataSource:424 - Created connection 1961945640.
+2020-01-23 18:48:24 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74f0ea28]
+2020-01-23 18:48:24 DEBUG getPartnerCompany:143 - ==>  Preparing: select * from partnerCompany 
+2020-01-23 18:48:24 DEBUG getPartnerCompany:143 - ==> Parameters: 
+2020-01-23 18:50:32 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:50:32 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:50:32 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:50:32 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:50:32 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:50:32 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:50:33 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 18:50:34 DEBUG PooledDataSource:424 - Created connection 691690486.
+2020-01-23 18:50:34 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@293a5bf6]
+2020-01-23 18:50:34 DEBUG getPartnerCompany:143 - ==>  Preparing: select * from partnerCompany 
+2020-01-23 18:50:34 DEBUG getPartnerCompany:143 - ==> Parameters: 
+2020-01-23 18:50:34 DEBUG getPartnerCompany:143 - <==      Total: 1
+2020-01-23 18:50:34 DEBUG getPartnerCompanyByID:143 - ==>  Preparing: select * from partnerCompany where id = ? 
+2020-01-23 18:50:34 DEBUG getPartnerCompanyByID:143 - ==> Parameters: 1(Integer)
+2020-01-23 18:52:21 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:52:21 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:52:21 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:52:21 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:52:21 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:52:21 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:52:21 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 18:52:23 DEBUG PooledDataSource:424 - Created connection 1961945640.
+2020-01-23 18:52:23 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74f0ea28]
+2020-01-23 18:52:23 DEBUG getPartnerCompany:143 - ==>  Preparing: select * from partnerCompany 
+2020-01-23 18:52:23 DEBUG getPartnerCompany:143 - ==> Parameters: 
+2020-01-23 18:52:23 DEBUG getPartnerCompany:143 - <==      Total: 1
+2020-01-23 18:52:23 DEBUG getPartnerCompanyByID:143 - ==>  Preparing: select * from partnerCompany where id_partnerCompany = ? 
+2020-01-23 18:52:23 DEBUG getPartnerCompanyByID:143 - ==> Parameters: 1(Integer)
+2020-01-23 18:52:23 DEBUG getPartnerCompanyByID:143 - <==      Total: 1
+2020-01-23 18:52:52 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:52:52 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:52:52 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:52:52 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:52:52 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:52:52 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:52:52 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 18:52:54 DEBUG PooledDataSource:424 - Created connection 1961945640.
+2020-01-23 18:52:54 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74f0ea28]
+2020-01-23 18:52:54 DEBUG getPartnerCompany:143 - ==>  Preparing: select * from partnerCompany 
+2020-01-23 18:52:54 DEBUG getPartnerCompany:143 - ==> Parameters: 
+2020-01-23 18:52:54 DEBUG getPartnerCompany:143 - <==      Total: 1
+2020-01-23 18:52:54 DEBUG getPartnerCompanyByID:143 - ==>  Preparing: select * from partnerCompany where id_partnerCompany = ? 
+2020-01-23 18:52:54 DEBUG getPartnerCompanyByID:143 - ==> Parameters: 1(Integer)
+2020-01-23 18:52:54 DEBUG getPartnerCompanyByID:143 - <==      Total: 1
+2020-01-23 18:54:10 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:54:10 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 18:54:10 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:54:10 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:54:10 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:54:10 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 18:54:10 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 18:54:12 DEBUG PooledDataSource:424 - Created connection 691690486.
+2020-01-23 18:54:12 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@293a5bf6]
+2020-01-23 18:54:12 DEBUG getPartnerCompany:143 - ==>  Preparing: select * from partnerCompany 
+2020-01-23 18:54:12 DEBUG getPartnerCompany:143 - ==> Parameters: 
+2020-01-23 18:54:12 DEBUG getPartnerCompany:143 - <==      Total: 1
+2020-01-23 18:54:12 DEBUG getPartnerCompanyByID:143 - ==>  Preparing: select * from partnerCompany where id_partnerCompany = ? 
+2020-01-23 18:54:12 DEBUG getPartnerCompanyByID:143 - ==> Parameters: 1(Integer)
+2020-01-23 18:54:12 DEBUG getPartnerCompanyByID:143 - <==      Total: 1
+2020-01-23 20:18:41 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 20:18:41 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 20:18:41 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 20:18:41 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 20:18:41 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 20:18:41 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 20:18:42 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 20:18:43 DEBUG PooledDataSource:424 - Created connection 1961945640.
+2020-01-23 20:18:43 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74f0ea28]
+2020-01-23 20:18:43 DEBUG getPartnerCompany:143 - ==>  Preparing: select * from partnerCompany 
+2020-01-23 20:18:43 DEBUG getPartnerCompany:143 - ==> Parameters: 
+2020-01-23 20:18:44 DEBUG getPartnerCompany:143 - <==      Total: 1
+2020-01-23 20:18:44 DEBUG getPartnerCompanyByID:143 - ==>  Preparing: select * from partnerCompany where id_partnerCompany = ? 
+2020-01-23 20:18:44 DEBUG getPartnerCompanyByID:143 - ==> Parameters: 1(Integer)
+2020-01-23 20:18:44 DEBUG getPartnerCompanyByID:143 - <==      Total: 1
+2020-01-23 23:32:13 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 23:32:13 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 23:32:13 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:32:13 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:32:13 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:32:13 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:32:13 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 23:32:15 DEBUG PooledDataSource:424 - Created connection 953742666.
+2020-01-23 23:32:15 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@38d8f54a]
+2020-01-23 23:32:15 DEBUG getPartnerCompany:143 - ==>  Preparing: select * from partnerCompany 
+2020-01-23 23:32:15 DEBUG getPartnerCompany:143 - ==> Parameters: 
+2020-01-23 23:34:19 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 23:34:19 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 23:34:19 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:34:19 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:34:19 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:34:19 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:34:19 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 23:34:20 DEBUG PooledDataSource:424 - Created connection 953742666.
+2020-01-23 23:34:20 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@38d8f54a]
+2020-01-23 23:34:20 DEBUG getPartnerCompany:143 - ==>  Preparing: select * from partnerCompany 
+2020-01-23 23:34:21 DEBUG getPartnerCompany:143 - ==> Parameters: 
+2020-01-23 23:34:21 DEBUG getPartnerCompany:143 - <==      Total: 1
+2020-01-23 23:34:21 DEBUG getPartnerCompanyByID:143 - ==>  Preparing: select * from partnerCompany where id_partnerCompany = ? 
+2020-01-23 23:34:21 DEBUG getPartnerCompanyByID:143 - ==> Parameters: 1(Integer)
+2020-01-23 23:34:21 DEBUG getPartnerCompanyByID:143 - <==      Total: 1
+2020-01-23 23:38:02 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 23:38:02 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 23:38:02 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:38:02 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:38:02 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:38:02 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:38:03 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 23:38:04 DEBUG PooledDataSource:424 - Created connection 953742666.
+2020-01-23 23:38:04 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@38d8f54a]
+2020-01-23 23:38:04 DEBUG getPersons:143 - ==>  Preparing: select * from person 
+2020-01-23 23:38:04 DEBUG getPersons:143 - ==> Parameters: 
+2020-01-23 23:39:02 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 23:39:02 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 23:39:02 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:39:02 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:39:02 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:39:02 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:39:02 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 23:39:04 DEBUG PooledDataSource:424 - Created connection 953742666.
+2020-01-23 23:39:04 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@38d8f54a]
+2020-01-23 23:39:04 DEBUG getPersons:143 - ==>  Preparing: select * from person 
+2020-01-23 23:39:04 DEBUG getPersons:143 - ==> Parameters: 
+2020-01-23 23:39:38 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 23:39:38 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 23:39:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:39:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:39:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:39:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 23:39:39 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-23 23:39:40 DEBUG PooledDataSource:424 - Created connection 953742666.
+2020-01-23 23:39:40 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@38d8f54a]
+2020-01-23 23:39:40 DEBUG getPersons:143 - ==>  Preparing: select * from person 
+2020-01-23 23:39:40 DEBUG getPersons:143 - ==> Parameters: 
+2020-01-23 23:39:40 DEBUG getPersons:143 - <==      Total: 5
+2020-01-23 23:39:40 DEBUG getPersonByID:143 - ==>  Preparing: select * from person where id_person = ? 
+2020-01-23 23:39:40 DEBUG getPersonByID:143 - ==> Parameters: 1(Integer)
+2020-01-23 23:39:40 DEBUG getPersonByID:143 - <==      Total: 1
+2020-01-24 00:01:27 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:01:27 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:01:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:01:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:01:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:01:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:01:27 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-24 00:01:29 DEBUG PooledDataSource:424 - Created connection 902830499.
+2020-01-24 00:01:29 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@35d019a3]
+2020-01-24 00:01:29 DEBUG getCustomers:143 - ==>  Preparing: select * from customer 
+2020-01-24 00:01:29 DEBUG getCustomers:143 - ==> Parameters: 
+2020-01-24 00:03:09 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:03:09 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:03:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:03:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:03:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:03:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:03:09 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-24 00:03:11 DEBUG PooledDataSource:424 - Created connection 902830499.
+2020-01-24 00:03:11 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@35d019a3]
+2020-01-24 00:03:11 DEBUG getCustomers:143 - ==>  Preparing: select * from customer 
+2020-01-24 00:03:11 DEBUG getCustomers:143 - ==> Parameters: 
+2020-01-24 00:03:11 DEBUG getPersonByID:143 - ====>  Preparing: select * from person where id_person = ? 
+2020-01-24 00:03:11 DEBUG getPersonByID:143 - ====> Parameters: 2(Integer)
+2020-01-24 00:03:11 DEBUG getPersonByID:143 - <====      Total: 1
+2020-01-24 00:03:11 DEBUG getPersonByID:143 - ====>  Preparing: select * from person where id_person = ? 
+2020-01-24 00:03:11 DEBUG getPersonByID:143 - ====> Parameters: 5(Integer)
+2020-01-24 00:03:11 DEBUG getPersonByID:143 - <====      Total: 1
+2020-01-24 00:03:11 DEBUG getCustomers:143 - <==      Total: 2
+2020-01-24 00:03:11 DEBUG getCustomerByID:143 - ==>  Preparing: select * from customer where id_customer = ? 
+2020-01-24 00:03:11 DEBUG getCustomerByID:143 - ==> Parameters: 1(Integer)
+2020-01-24 00:03:11 DEBUG getCustomerByID:143 - <==      Total: 1
+2020-01-24 00:15:42 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:15:42 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:15:42 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:15:42 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:15:42 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:15:42 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:15:42 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-24 00:15:44 DEBUG PooledDataSource:424 - Created connection 341796579.
+2020-01-24 00:15:44 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@145f66e3]
+2020-01-24 00:15:44 DEBUG getEmployees:143 - ==>  Preparing: select * from employee 
+2020-01-24 00:15:44 DEBUG getEmployees:143 - ==> Parameters: 
+2020-01-24 00:15:44 DEBUG getPersonByID:143 - ====>  Preparing: select * from person where id_person = ? 
+2020-01-24 00:15:44 DEBUG getPersonByID:143 - ====> Parameters: 1(Integer)
+2020-01-24 00:15:44 DEBUG getPersonByID:143 - <====      Total: 1
+2020-01-24 00:15:44 DEBUG getPersonByID:143 - ====>  Preparing: select * from person where id_person = ? 
+2020-01-24 00:15:44 DEBUG getPersonByID:143 - ====> Parameters: 4(Integer)
+2020-01-24 00:15:44 DEBUG getPersonByID:143 - <====      Total: 1
+2020-01-24 00:15:44 DEBUG getPersonByID:143 - ====>  Preparing: select * from person where id_person = ? 
+2020-01-24 00:15:44 DEBUG getPersonByID:143 - ====> Parameters: 3(Integer)
+2020-01-24 00:15:44 DEBUG getPersonByID:143 - <====      Total: 1
+2020-01-24 00:15:44 DEBUG getEmployees:143 - <==      Total: 3
+2020-01-24 00:15:44 DEBUG getEmployeeByID:143 - ==>  Preparing: select * from employee where id_employee = ? 
+2020-01-24 00:15:44 DEBUG getEmployeeByID:143 - ==> Parameters: 1(Integer)
+2020-01-24 00:15:44 DEBUG getEmployeeByID:143 - <==      Total: 1
+2020-01-24 00:28:29 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:28:29 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:28:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:28:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:28:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:28:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:29:18 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:29:18 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:29:18 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:29:18 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:29:18 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:29:18 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:29:18 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-24 00:29:19 DEBUG PooledDataSource:424 - Created connection 1164107853.
+2020-01-24 00:29:19 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4562e04d]
+2020-01-24 00:29:19 DEBUG getLuggageTrains:143 - ==>  Preparing: select * from luggageTrain 
+2020-01-24 00:29:20 DEBUG getLuggageTrains:143 - ==> Parameters: 
+2020-01-24 00:29:20 DEBUG getLuggageTrains:143 - <==      Total: 2
+2020-01-24 00:29:20 DEBUG getLuggageTrainByID:143 - ==>  Preparing: select * from luggageTrain where id_luggageTrain = ? 
+2020-01-24 00:29:20 DEBUG getLuggageTrainByID:143 - ==> Parameters: 1(Integer)
+2020-01-24 00:29:20 DEBUG getLuggageTrainByID:143 - <==      Total: 1
+2020-01-24 00:38:15 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:38:15 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:38:15 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:38:15 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:38:15 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:38:15 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:38:15 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-24 00:38:17 DEBUG PooledDataSource:424 - Created connection 1864230087.
+2020-01-24 00:38:17 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6f1de4c7]
+2020-01-24 00:38:17 DEBUG getLuggageTrains:143 - ==>  Preparing: select * from luggageTrain 
+2020-01-24 00:38:17 DEBUG getLuggageTrains:143 - ==> Parameters: 
+2020-01-24 00:38:17 DEBUG getLuggageTrains:143 - <==      Total: 2
+2020-01-24 00:38:17 DEBUG getLuggageTrainByID:143 - ==>  Preparing: select * from luggageTrain where id_luggageTrain = ? 
+2020-01-24 00:38:17 DEBUG getLuggageTrainByID:143 - ==> Parameters: 1(Integer)
+2020-01-24 00:38:17 DEBUG getLuggageTrainByID:143 - <==      Total: 1
+2020-01-24 00:39:44 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:39:44 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 00:39:44 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:39:44 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:39:44 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:39:44 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 00:39:45 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-24 00:39:47 DEBUG PooledDataSource:424 - Created connection 1864230087.
+2020-01-24 00:39:47 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6f1de4c7]
+2020-01-24 00:39:47 DEBUG getCustomerTrains:143 - ==>  Preparing: select * from customerTrain 
+2020-01-24 00:39:47 DEBUG getCustomerTrains:143 - ==> Parameters: 
+2020-01-24 00:39:47 DEBUG getCustomerTrains:143 - <==      Total: 2
+2020-01-24 00:39:47 DEBUG getCustomerTrainByID:143 - ==>  Preparing: select * from customerTrain where id_customerTrain = ? 
+2020-01-24 00:39:47 DEBUG getCustomerTrainByID:143 - ==> Parameters: 1(Integer)
+2020-01-24 00:39:47 DEBUG getCustomerTrainByID:143 - <==      Total: 1
+2020-01-24 01:33:56 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 01:33:56 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 01:33:56 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 01:33:56 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 01:33:56 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 01:33:56 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 01:33:56 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-24 01:33:58 DEBUG PooledDataSource:424 - Created connection 1297978429.
+2020-01-24 01:33:58 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4d5d943d]
+2020-01-24 01:33:58 DEBUG getTransportations:143 - ==>  Preparing: select * from transportation 
+2020-01-24 01:33:58 DEBUG getTransportations:143 - ==> Parameters: 
+2020-01-24 01:35:20 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 01:35:20 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 01:35:20 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 01:35:20 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 01:35:20 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 01:35:20 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 01:35:20 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-24 01:35:21 DEBUG PooledDataSource:424 - Created connection 1297978429.
+2020-01-24 01:35:21 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4d5d943d]
+2020-01-24 01:35:21 DEBUG getTransportations:143 - ==>  Preparing: select * from transportation 
+2020-01-24 01:35:21 DEBUG getTransportations:143 - ==> Parameters: 
+2020-01-24 01:35:21 DEBUG getEmployeeByID:143 - ====>  Preparing: select * from employee where id_employee = ? 
+2020-01-24 01:35:21 DEBUG getEmployeeByID:143 - ====> Parameters: 3(Integer)
+2020-01-24 01:35:21 DEBUG getPersonByID:143 - ======>  Preparing: select * from person where id_person = ? 
+2020-01-24 01:35:21 DEBUG getPersonByID:143 - ======> Parameters: 3(Integer)
+2020-01-24 01:35:21 DEBUG getPersonByID:143 - <======      Total: 1
+2020-01-24 01:35:21 DEBUG getEmployeeByID:143 - <====      Total: 1
+2020-01-24 01:35:21 DEBUG getTransportations:143 - <==      Total: 2
+2020-01-24 01:35:21 DEBUG getTransportationByID:143 - ==>  Preparing: select * from transportation where id_transportation = ? 
+2020-01-24 01:35:21 DEBUG getTransportationByID:143 - ==> Parameters: 1(Integer)
+2020-01-24 01:35:21 DEBUG getTransportationByID:143 - <==      Total: 1
+2020-01-24 03:01:08 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 03:01:08 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 03:01:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 03:01:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 03:01:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 03:01:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 03:01:09 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-24 03:01:10 DEBUG PooledDataSource:424 - Created connection 1427646530.
+2020-01-24 03:01:10 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55182842]
+2020-01-24 03:01:10 DEBUG getCustomers:143 - ==>  Preparing: select * from customer 
+2020-01-24 03:01:10 DEBUG getCustomers:143 - ==> Parameters: 
+2020-01-24 03:01:10 DEBUG getPersonByID:143 - ====>  Preparing: select * from person where id_person = ? 
+2020-01-24 03:01:10 DEBUG getPersonByID:143 - ====> Parameters: 2(Integer)
+2020-01-24 03:01:10 DEBUG getPersonByID:143 - <====      Total: 1
+2020-01-24 03:01:10 DEBUG getPersonByID:143 - ====>  Preparing: select * from person where id_person = ? 
+2020-01-24 03:01:10 DEBUG getPersonByID:143 - ====> Parameters: 5(Integer)
+2020-01-24 03:01:10 DEBUG getPersonByID:143 - <====      Total: 1
+2020-01-24 03:01:10 DEBUG getCustomers:143 - <==      Total: 2
+2020-01-24 03:01:10 DEBUG getCustomerByID:143 - ==>  Preparing: select * from customer where id_customer = ? 
+2020-01-24 03:01:10 DEBUG getCustomerByID:143 - ==> Parameters: 1(Integer)
+2020-01-24 03:01:10 DEBUG getCustomerByID:143 - <==      Total: 1
+2020-01-24 03:02:41 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 03:02:41 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-24 03:02:41 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 03:02:41 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 03:02:41 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 03:02:41 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-01-24 03:02:42 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-01-24 03:02:43 DEBUG PooledDataSource:424 - Created connection 1108924067.
+2020-01-24 03:02:43 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4218d6a3]
+2020-01-24 03:02:43 DEBUG getLuggageTransportationByIDLT:143 - ==>  Preparing: select * from luggageTransportation where id_luggageTrain = ? 
+2020-01-24 03:02:43 DEBUG getLuggageTransportationByIDLT:143 - ==> Parameters: 1(Integer)
+2020-01-24 03:02:43 DEBUG getLuggageTransportationByIDLT:143 - <==      Total: 0
+2020-01-24 03:02:43 DEBUG getLuggageTransportationByID:143 - ==>  Preparing: select * from luggageTransportation where id_luggageTr = ? 
+2020-01-24 03:02:43 DEBUG getLuggageTransportationByID:143 - ==> Parameters: 1(Integer)
+2020-01-24 03:02:43 DEBUG getTransportationByID:143 - ====>  Preparing: select * from transportation where id_transportation = ? 
+2020-01-24 03:02:43 DEBUG getTransportationByID:143 - ====> Parameters: 2(Integer)
+2020-01-24 03:02:43 DEBUG getEmployeeByID:143 - ======>  Preparing: select * from employee where id_employee = ? 
+2020-01-24 03:02:43 DEBUG getEmployeeByID:143 - ======> Parameters: 3(Integer)
+2020-01-24 03:02:43 DEBUG getPersonByID:143 - ========>  Preparing: select * from person where id_person = ? 
+2020-01-24 03:02:43 DEBUG getPersonByID:143 - ========> Parameters: 3(Integer)
+2020-01-24 03:02:43 DEBUG getPersonByID:143 - <========      Total: 1
+2020-01-24 03:02:43 DEBUG getEmployeeByID:143 - <======      Total: 1
+2020-01-24 03:02:43 DEBUG getTransportationByID:143 - <====      Total: 1
+2020-01-24 03:02:43 DEBUG getLuggageTransportationByID:143 - <==      Total: 1

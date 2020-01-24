@@ -2,44 +2,50 @@ package company.person;
 
 public class Employee extends Person {
 
+    private Long id_employee;
     private String postEmployee;
     private int wagesEmployee;
+    private Person person;
 
-    public Employee (){}
-
-    public Employee(String nameEmployee, String surnameEmployee){
-        super(nameEmployee, surnameEmployee);
+    public Long getId_employee() {
+        return id_employee;
     }
 
-    public Employee(String nameEmployee, String surnameEmployee, String postEmployee, int wagesEmployee){
-        super(nameEmployee, surnameEmployee);
-        this.postEmployee = postEmployee;
-        this.wagesEmployee = wagesEmployee;
+    public void setId_employee(Long id_employee) {
+        this.id_employee = id_employee;
+    }
+
+    public String getPostEmployee() {
+        return postEmployee;
     }
 
     public void setPostEmployee(String postEmployee) {
         this.postEmployee = postEmployee;
     }
 
+    public int getWagesEmployee() {
+        return wagesEmployee;
+    }
+
     public void setWagesEmployee(int wagesEmployee) {
         this.wagesEmployee = wagesEmployee;
     }
 
-    public String getPostEmployee() {
-        return this.postEmployee;
+    public Person getPerson() {
+        return person;
     }
 
-    public int getWagesEmployee() {
-        return this.wagesEmployee;
-    }
-
-    @Override
-    public void walk(){
-        System.out.println("walking");
+    public void setPerson(Person person) {
+        this.person = person;
     }
 
     @Override
-    public void stay(){
-        System.out.println("stay");
+    public String toString() {
+        return "Employee{" +
+                "id_employee=" + id_employee +
+                ", postEmployee='" + postEmployee + '\'' +
+                ", wagesEmployee=" + wagesEmployee +
+                ", person=" + person +
+                '}';
     }
 }

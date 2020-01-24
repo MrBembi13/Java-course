@@ -1,0 +1,21 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mappers.CustomerTrainMapper">
+    <resultMap id="customer" type="company.train.CustomerTrain">
+        <id property="id_customerTrain" column="id_customerTrain"/>
+        <result property="nameTrain" column="name"/>
+        <result property="typeCarriage" column="typeCarriage"/>
+        <collection
+                property="customerTransportations" column="id_customerTrain"
+                javaType="List"
+                ofType="CustomerTransportation"
+                select="mappers.CustomerTransportationMapper.getCustomerTransportationByIDCT"
+                fetchType="eager" />
+    </resultMap>
+    <select id="getCustomerTrainByID" parameterType="java.lang.Integer" resultMap="customer">
+        select * from customerTrain where id_customerTrain = #{id}
+    </select>
+    <select id="getCustomerTrains" resultMap="customer">
+        select * from customerTrain
+    </select>
+</mapper>
