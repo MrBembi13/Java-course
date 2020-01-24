@@ -1,0 +1,22 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mappers.LuggageTrainMapper">
+    <resultMap id="luggage" type="company.train.LuggageTrain">
+        <id property="id_luggageTrain" column="id_luggageTrain"/>
+        <result property="nameTrain" column="name"/>
+        <result property="typeCarriage" column="typeCarriage"/>
+        <result property="maxWeight" column="maxWeight(T)"/>
+        <collection
+                property="luggageTransportations" column="id_luggageTrain"
+                javaType="List"
+                ofType="LuggageTransportation"
+                select="mappers.LuggageTransportationMapper.getLuggageTransportationByIDLT"
+                fetchType="eager" />
+    </resultMap>
+    <select id="getLuggageTrainByID" parameterType="java.lang.Integer" resultMap="luggage">
+        select * from luggageTrain where id_luggageTrain = #{id}
+    </select>
+    <select id="getLuggageTrains" resultMap="luggage">
+        select * from luggageTrain
+    </select>
+</mapper>

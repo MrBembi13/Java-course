@@ -1,72 +1,51 @@
 package company.person;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Customer extends Person {
 
-    private boolean haveAnimals = false;
+    private Long id_customer;
+    private String haveAnimal;
     private int documentCustomer;
-    public final float PDV_TICKET = 1.15f;
-    private ArrayList<Customer> customers = new ArrayList<>();
+    private Person person;
 
-    public Customer() {
+    public Long getId_customer() {
+        return id_customer;
     }
 
-    public Customer(String nameCustomer, String surnameCustomer){
-        super(nameCustomer, surnameCustomer);
+    public void setId_customer(Long id_customer) {
+        this.id_customer = id_customer;
     }
 
-    public Customer(String nameCustomer, String surnameCustomer, boolean haveAnimals, int documentCustomer) {
-        super(nameCustomer, surnameCustomer);
-        this.haveAnimals = haveAnimals;
-        this.documentCustomer = documentCustomer;
+    public String getHaveAnimal() {
+        return haveAnimal;
     }
 
-    public void addCustomers (Customer customer){
-        customers.add(customer);
+    public void setHaveAnimal(String haveAnimal) {
+        this.haveAnimal = haveAnimal;
     }
 
-    public List<Customer> getCustomers (){
-        return customers;
-    }
-
-    public float sumPriceTicket(float priceTicket, int howManyPerson){
-        return (priceTicket*howManyPerson) * PDV_TICKET;
-    }
-
-    public float sumPriceTicket(float priceTicket, int howManyPerson, int howManyVeil){
-        return ((priceTicket*howManyPerson) + (50 * howManyVeil)) * PDV_TICKET;
-    }
-
-    public void setHaveAnimals(boolean haveAnimals) {
-        this.haveAnimals = haveAnimals;
+    public int getDocumentCustomer() {
+        return documentCustomer;
     }
 
     public void setDocumentCustomer(int documentCustomer) {
         this.documentCustomer = documentCustomer;
     }
 
-    public int getDocumentCustomer() {
-        return this.documentCustomer;
+    public Person getPerson() {
+        return person;
     }
 
-    public boolean isHaveAnimals() {
-        return this.haveAnimals;
-    }
-
-    @Override
-    public void walk(){
-        System.out.println("walking");
-    }
-
-    @Override
-    public void stay(){
-        System.out.println("stay");
+    public void setPerson(Person person) {
+        this.person = person;
     }
 
     @Override
     public String toString() {
-        return "Customer - " + name + " " + surname;
+        return "Customer{" +
+                "id_customer=" + id_customer +
+                ", haveAnimal=" + haveAnimal +
+                ", documentCustomer=" + documentCustomer +
+                ", person=" + person +
+                '}';
     }
 }

@@ -1,113 +1,65 @@
 package company.train;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import company.transportation.LuggageTransportation;
 
-public class LuggageTrain extends TrainPark implements TrainInfo{
+import java.util.List;
+
+public class LuggageTrain {
+
+    private Long id_luggageTrain;
+    private String nameTrain;
     private String typeCarriage;
-    private int maxWeightLuggage;
-    private boolean canTrainWork = true;
-    private boolean fullTankOil = true;
-    private static int countLuggageTrain = 0;
-    private int indexTrain = 0;
-    private static Set<String> nameTrains = new HashSet<>();
-    private Map<Integer, String> typeCarriages = new HashMap<Integer, String>();
+    private int maxWeight;
+    List<LuggageTransportation> luggageTransportations;
 
-    public LuggageTrain(){
-        countLuggageTrain++;
-        this.indexTrain = countLuggageTrain;
+    public List<LuggageTransportation> getLuggageTransportations() {
+        return luggageTransportations;
     }
 
-    public LuggageTrain( String nameTrain, boolean onOrder){
-        super(nameTrain, onOrder);
-        countLuggageTrain++;
-        this.indexTrain = countLuggageTrain;
+    public void setLuggageTransportations(List<LuggageTransportation> luggageTransportations) {
+        this.luggageTransportations = luggageTransportations;
     }
 
-    public LuggageTrain(String nameTrain, boolean onOrder, String typeCarriage, int maxWeightLuggage){
-        super(nameTrain, onOrder);
-        this.typeCarriage = typeCarriage;
-        this.maxWeightLuggage = maxWeightLuggage;
-        countLuggageTrain++;
-        this.indexTrain = countLuggageTrain;
+    public Long getId_luggageTrain() {
+        return id_luggageTrain;
     }
 
-    public void addNameTrains (String name){
-        nameTrains.add(name);
+    public void setId_luggageTrain(Long id_luggageTrain) {
+        this.id_luggageTrain = id_luggageTrain;
     }
 
-    public static Set<String> getNameTrains (){
-        if(nameTrains != null)
-            return nameTrains;
-        else return null;
+    public String getNameTrain() {
+        return nameTrain;
     }
 
-    public void addTypeCarriages (int index, String typeCarriage){
-        typeCarriages.put(index, typeCarriage);
+    public void setNameTrain(String nameTrain) {
+        this.nameTrain = nameTrain;
     }
 
-    public String getTypeCarriages (){
-        return typeCarriages.get(getIndexTrain());
-    }
-
-    public int getIndexTrain (){
-        return indexTrain;
-    }
-
-    public static void getCountLuggageTrain(){
-        System.out.println(countLuggageTrain);
+    public String getTypeCarriage() {
+        return typeCarriage;
     }
 
     public void setTypeCarriage(String typeCarriage) {
         this.typeCarriage = typeCarriage;
     }
 
-    public void setMaxWeightLuggage(int maxWeightLuggage) {
-        this.maxWeightLuggage = maxWeightLuggage;
+    public int getMaxWeight() {
+        return maxWeight;
     }
 
-    public String getTypeCarriage() {
-        return this.typeCarriage;
-    }
-
-    public int getMaxWeightLuggage() {
-        return this.maxWeightLuggage;
-    }
-
-    public void setCanTrainWork(boolean canTrainWork){
-        this.canTrainWork = canTrainWork;
-    }
-
-    public void setFullTankOil(boolean fullTankOil) {
-        this.fullTankOil = fullTankOil;
+    public void setMaxWeight(int maxWeight) {
+        this.maxWeight = maxWeight;
     }
 
     @Override
-    public void fullTankOil(){
-        if (fullTankOil) System.out.println("Train has full tank.");
-        else System.out.println("Train hasn't full tank.");
-    }
-
-    @Override
-    public void canTrainWorks(){
-        if (canTrainWork) System.out.println("Train can go on order.");
-        else System.out.println("Train can't go on order.");
-    }
-
-    @Override
-    public void startMove (){
-        System.out.println("Train starts moving!!!");
-    }
-
-    @Override
-    public void brake (){
-        System.out.println("Train brakes!!!");
-    }
-
-    @Override
-    public void typeTrain(){
-        System.out.println("This is Luggage train!!!");
+    public String toString() {
+        return "LuggageTrain{" +
+                "id_luggageTrain=" + id_luggageTrain +
+                ", nameTrain='" + nameTrain + '\'' +
+                ", typeCarriage='" + typeCarriage + '\'' +
+                ", maxWeight=" + maxWeight +
+                ", luggageTransportations=" + luggageTransportations +
+                '}';
     }
 }

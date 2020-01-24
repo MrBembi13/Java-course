@@ -1,0 +1,17 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mappers.LuggageTransportationMapper">
+    <resultMap id="lugTran" type="company.transportation.LuggageTransportation">
+        <id property="id_luggageTr" column="id_luggageTr"/>
+        <result property="typeLuggage" column="typeLuggage"/>
+        <association property="transportation" column="id_transportation"
+                     javaType="company.transportation.Transportation"
+                     select="mappers.TransportationMapper.getTransportationByID"	fetchType="eager"/>
+    </resultMap>
+    <select id="getLuggageTransportationByIDLT" parameterType="java.lang.Integer" resultMap="lugTran">
+        select * from luggageTransportation where id_luggageTrain = #{id}
+    </select>
+    <select id="getLuggageTransportationByID" parameterType="java.lang.Integer" resultMap="lugTran">
+        select * from luggageTransportation where id_luggageTr = #{id}
+    </select>
+</mapper>

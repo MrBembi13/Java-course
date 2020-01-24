@@ -5,6 +5,12 @@
         <id property="id_partnerCompany" column="id_partnerCompany"/>
         <result property="nameCompany" column="nameCompany"/>
         <result property="city" column="city"/>
+        <collection
+                property="luggageTransportations" column="id_partnerCompany"
+                javaType="List"
+                ofType="LuggageTransportation"
+                select="mappers.LuggageTransportationMapper.getLuggageTransportationByIDLT"
+                fetchType="eager" />
     </resultMap>
     <select id="getPartnerCompanyByID" parameterType="java.lang.Integer" resultMap="partnerCompany">
         select * from partnerCompany where id_partnerCompany = #{id}

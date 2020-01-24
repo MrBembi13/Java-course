@@ -1,34 +1,46 @@
 package company.transportation;
 
+import company.CustomerTransportationHasCustomer;
+
+import java.util.List;
+
 public class CustomerTransportation extends Transportation {
-    private String typeTrain;
+
+    private Long id_customerTr;
+    private Transportation transportation;
     private int countSeat;
+    private List<CustomerTransportationHasCustomer> customerTransportationHasCustomers;
 
-    public CustomerTransportation(){}
-
-    public CustomerTransportation(String driver, String cityDeparture, String cityArrival){
-        super(driver, cityDeparture, cityArrival);
+    public Long getId_customerTr() {
+        return id_customerTr;
     }
 
-    public CustomerTransportation(String driver, String cityDeparture, String cityArrival, String typeTrain, int countSeat){
-        super(driver, cityDeparture, cityArrival);
-        this.typeTrain = typeTrain;
-        this.countSeat = countSeat;
+    public void setId_customerTr(Long id_customerTr) {
+        this.id_customerTr = id_customerTr;
     }
 
-    public void setTypeTrain(String typeTrain) {
-        this.typeTrain = typeTrain;
+    public Transportation getTransportation() {
+        return transportation;
+    }
+
+    public void setTransportation(Transportation transportation) {
+        this.transportation = transportation;
+    }
+
+    public int getCountSeat() {
+        return countSeat;
     }
 
     public void setCountSeat(int countSeat) {
         this.countSeat = countSeat;
     }
 
-    public String getTypeTrain() {
-        return this.typeTrain;
-    }
-
-    public int getCountSeat() {
-        return this.countSeat;
+    @Override
+    public String toString() {
+        return "CustomerTransportation{" +
+                "id_customerTr=" + id_customerTr +
+                ", transportation=" + transportation +
+                ", countSeat=" + countSeat +
+                '}';
     }
 }

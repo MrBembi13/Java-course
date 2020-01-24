@@ -22,7 +22,15 @@
     </environments>
 
     <mappers>
-        <mapper resource="PartnerCompanyMapper.xml"/>
+        <mapper resource="mappersxml/PartnerCompanyMapper.xml"/>
+        <mapper resource="mappersxml/PersonMapper.xml"/>
+        <mapper resource="mappersxml/CustomerMapper.xml"/>
+        <mapper resource="mappersxml/EmployeeMapper.xml"/>
+        <mapper resource="mappersxml/LuggageTrainMapper.xml"/>
+        <mapper resource="mappersxml/CustomerTrainMapper.xml"/>
+        <mapper resource="mappersxml/TransportationMapper.xml"/>
+        <mapper resource="mappersxml/CustomerTransportationMapper.xml"/>
+        <mapper resource="mappersxml/LuggageTransportationMapper.xml"/>
     </mappers>
 
 </configuration>

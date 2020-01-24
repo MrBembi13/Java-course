@@ -1,0 +1,18 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mappers.CustomerMapper">
+    <resultMap id="customer" type="company.person.Customer">
+        <id property="id_customer" column="id_customer"/>
+        <result property="haveAnimal" column="haveAnimal"/>
+        <result property="documentCustomer" column="document"/>
+        <association property="person" column="id_person"
+                     javaType="company.person.Person"
+                     select="mappers.PersonMapper.getPersonByID"	fetchType="eager"/>
+    </resultMap>
+    <select id="getCustomerByID" parameterType="java.lang.Integer" resultMap="customer">
+        select * from customer where id_customer = #{id}
+    </select>
+    <select id="getCustomers" resultMap="customer">
+        select * from customer
+    </select>
+</mapper>
