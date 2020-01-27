@@ -1,0 +1,16 @@
+{
+  "namePark": "Park1",
+  "address": "Street st, 2",
+  "train":[
+    {
+      "name": "bmw",
+      "order": "no",
+      "type": "coupe"
+    },
+    {
+      "name": "peugeot",
+      "order": "yes",
+      "type": "electric"
+    }
+  ]
+}
