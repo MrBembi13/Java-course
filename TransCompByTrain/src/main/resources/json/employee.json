@@ -1,0 +1,16 @@
+{
+  "nameOffice": "java developers",
+  "floor": 2,
+  "programers": [
+    {
+      "name": "Vlad",
+      "post": "developer",
+      "wage": 1500
+    },
+    {
+      "name": "Oleg",
+      "post": "developer",
+      "wage": 1500
+    }
+  ]
+}
