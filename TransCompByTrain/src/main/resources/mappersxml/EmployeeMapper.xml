@@ -1,13 +1,13 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="mappers.EmployeeMapper">
-    <resultMap id="employee" type="company.person.Employee">
+<mapper namespace="dao.EmployeeMapper">
+    <resultMap id="employee" type="model.company.person.Employee">
         <id property="id_employee" column="id_employee"/>
         <result property="postEmployee" column="post"/>
         <result property="wagesEmployee" column="wage"/>
         <association property="person" column="id_person"
-                     javaType="company.person.Person"
-                     select="mappers.PersonMapper.getPersonByID"	fetchType="eager"/>
+                     javaType="model.company.person.PersonModel"
+                     select="dao.IPersonDAO.getPersonByID" fetchType="eager"/>
     </resultMap>
     <select id="getEmployeeByID" parameterType="java.lang.Integer" resultMap="employee">
         select * from employee where id_employee = #{id}

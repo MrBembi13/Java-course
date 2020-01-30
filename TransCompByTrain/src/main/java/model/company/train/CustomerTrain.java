@@ -1,6 +1,6 @@
-package company.train;
+package model.company.train;
 
-import company.transportation.CustomerTransportation;
+import model.company.transportation.CustomerTransportation;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ public class CustomerTrain {
     private Long id_customerTrain;
     private String nameTrain;
     private String typeCarriage;
-    private List<CustomerTransportation> customerTransportations;
+    private List<CustomerTransportation> customerTransportationList;
 
     public Long getId_customerTrain() {
         return id_customerTrain;
@@ -35,12 +35,12 @@ public class CustomerTrain {
         this.typeCarriage = typeCarriage;
     }
 
-    public List<CustomerTransportation> getCustomerTransportations() {
-        return customerTransportations;
+    public List<CustomerTransportation> getCustomerTransportationList() {
+        return customerTransportationList;
     }
 
-    public void setCustomerTransportations(List<CustomerTransportation> customerTransportations) {
-        this.customerTransportations = customerTransportations;
+    public void setCustomerTransportationList(List<CustomerTransportation> customerTransportationList) {
+        this.customerTransportationList = customerTransportationList;
     }
 
     @Override
@@ -49,7 +49,7 @@ public class CustomerTrain {
                 "id_customerTrain=" + id_customerTrain +
                 ", nameTrain='" + nameTrain + '\'' +
                 ", typeCarriage='" + typeCarriage + '\'' +
-                ", customerTransportations=" + customerTransportations +
+                ", customerTransportationList=" + customerTransportationList +
                 '}';
     }
 }

@@ -1,11 +1,11 @@
-package company.person;
+package model.company.person;
 
-public class Employee extends Person {
+public class Employee extends PersonModel {
 
     private Long id_employee;
     private String postEmployee;
     private int wagesEmployee;
-    private Person person;
+    private PersonModel personModel;
 
     public Long getId_employee() {
         return id_employee;
@@ -31,12 +31,12 @@ public class Employee extends Person {
         this.wagesEmployee = wagesEmployee;
     }
 
-    public Person getPerson() {
-        return person;
+    public PersonModel getPersonModel() {
+        return personModel;
     }
 
-    public void setPerson(Person person) {
-        this.person = person;
+    public void setPersonModel(PersonModel personModel) {
+        this.personModel = personModel;
     }
 
     @Override
@@ -45,7 +45,7 @@ public class Employee extends Person {
                 "id_employee=" + id_employee +
                 ", postEmployee='" + postEmployee + '\'' +
                 ", wagesEmployee=" + wagesEmployee +
-                ", person=" + person +
+                ", person=" + personModel +
                 '}';
     }
 }

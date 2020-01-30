@@ -1,6 +1,6 @@
-package company.transportation;
+package model.company.transportation;
 
-import company.person.Employee;
+import model.company.person.Employee;
 
 public class Transportation {
 

@@ -1,6 +1,6 @@
-package company.person;
+package model.company.person;
 
-public class Person {
+public class PersonModel {
     private Long id_person;
     private String name;
     private String surname;

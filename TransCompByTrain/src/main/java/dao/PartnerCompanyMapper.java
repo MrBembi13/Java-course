@@ -1,6 +1,6 @@
-package mappers;
+package dao;
 
-import company.partnercompany.PartnerCompany;
+import model.company.partnercompany.PartnerCompany;
 
 import java.util.List;
 

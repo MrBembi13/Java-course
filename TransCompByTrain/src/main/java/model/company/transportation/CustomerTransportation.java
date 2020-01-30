@@ -1,6 +1,6 @@
-package company.transportation;
+package model.company.transportation;
 
-import company.CustomerTransportationHasCustomer;
+import model.company.person.CustomerModel;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ public class CustomerTransportation extends Transportation {
     private Long id_customerTr;
     private Transportation transportation;
     private int countSeat;
-    private List<CustomerTransportationHasCustomer> customerTransportationHasCustomers;
+    private List<CustomerModel> customerModelList;
 
     public Long getId_customerTr() {
         return id_customerTr;
@@ -35,12 +35,21 @@ public class CustomerTransportation extends Transportation {
         this.countSeat = countSeat;
     }
 
+    public List<CustomerModel> getCustomerModelList() {
+        return customerModelList;
+    }
+
+    public void setCustomerModelList(List<CustomerModel> customerModelList) {
+        this.customerModelList = customerModelList;
+    }
+
     @Override
     public String toString() {
         return "CustomerTransportation{" +
                 "id_customerTr=" + id_customerTr +
                 ", transportation=" + transportation +
                 ", countSeat=" + countSeat +
+                ", customerList=" + getCustomerModelList() +
                 '}';
     }
 }

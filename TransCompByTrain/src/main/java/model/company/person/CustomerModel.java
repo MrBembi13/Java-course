@@ -1,11 +1,12 @@
-package company.person;
+package model.company.person;
 
-public class Customer extends Person {
+public class CustomerModel {
 
     private Long id_customer;
+    private Long id_person;
     private String haveAnimal;
     private int documentCustomer;
-    private Person person;
+    private Long id_customerTr;
 
     public Long getId_customer() {
         return id_customer;
@@ -31,21 +32,30 @@ public class Customer extends Person {
         this.documentCustomer = documentCustomer;
     }
 
-    public Person getPerson() {
-        return person;
+    public Long getId_person() {
+        return id_person;
     }
 
-    public void setPerson(Person person) {
-        this.person = person;
+    public void setId_person(Long id_person) {
+        this.id_person = id_person;
+    }
+
+    public Long getId_customerTr() {
+        return id_customerTr;
+    }
+
+    public void setId_customerTr(Long id_customerTr) {
+        this.id_customerTr = id_customerTr;
     }
 
     @Override
     public String toString() {
         return "Customer{" +
                 "id_customer=" + id_customer +
-                ", haveAnimal=" + haveAnimal +
+                ", id_person=" + id_person +
+                ", haveAnimal='" + haveAnimal + '\'' +
                 ", documentCustomer=" + documentCustomer +
-                ", person=" + person +
+                ", id_customerTr=" + id_customerTr +
                 '}';
     }
 }
