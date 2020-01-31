@@ -1,4 +1,4 @@
-package company.transportation;
+package model.company.transportation;
 
 public class LuggageTransportation extends Transportation{
     private Long id_luggageTr;

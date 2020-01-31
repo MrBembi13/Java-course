@@ -1,13 +1,13 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="mappers.TransportationMapper">
-    <resultMap id="transportation" type="company.transportation.Transportation">
+<mapper namespace="dao.TransportationMapper">
+    <resultMap id="transportation" type="model.company.transportation.Transportation">
         <id property="id_transportation" column="id_transportation"/>
         <result property="cityDeparture" column="cityDeparture"/>
         <result property="cityArrival" column="cityArrival"/>
         <association property="driver" column="id_driver"
-                     javaType="company.person.Employee"
-                     select="mappers.EmployeeMapper.getEmployeeByID"	fetchType="eager"/>
+                     javaType="model.company.person.Employee"
+                     select="dao.EmployeeMapper.getEmployeeByID" fetchType="eager"/>
     </resultMap>
     <select id="getTransportationByID" parameterType="java.lang.Integer" resultMap="transportation">
         select * from transportation where id_transportation = #{id}

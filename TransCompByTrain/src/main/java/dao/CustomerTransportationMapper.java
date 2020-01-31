@@ -1,6 +1,6 @@
-package mappers;
+package dao;
 
-import company.transportation.CustomerTransportation;
+import model.company.transportation.CustomerTransportation;
 
 import java.util.List;
 

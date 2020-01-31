@@ -1,6 +1,6 @@
-package mappers;
+package dao;
 
-import company.person.Employee;
+import model.company.person.Employee;
 
 import java.util.List;
 

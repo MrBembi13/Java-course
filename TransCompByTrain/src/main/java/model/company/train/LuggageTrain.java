@@ -1,6 +1,6 @@
-package company.train;
+package model.company.train;
 
-import company.transportation.LuggageTransportation;
+import model.company.transportation.LuggageTransportation;
 
 import java.util.List;
 

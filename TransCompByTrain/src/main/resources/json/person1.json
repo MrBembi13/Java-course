@@ -1,0 +1,21 @@
+[ {
+  "id_person" : 1,
+  "name" : "Vasyl",
+  "surname" : "Rudyk"
+}, {
+  "id_person" : 2,
+  "name" : "Tanya",
+  "surname" : "Pivoshenko"
+}, {
+  "id_person" : 3,
+  "name" : "Vlad",
+  "surname" : "Rossomaha"
+}, {
+  "id_person" : 4,
+  "name" : "Oleh",
+  "surname" : "Chepak"
+}, {
+  "id_person" : 5,
+  "name" : "Denis",
+  "surname" : "Holiney"
+} ]

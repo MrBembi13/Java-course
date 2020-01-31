@@ -1,6 +1,6 @@
-package company.partnercompany;
+package model.company.partnercompany;
 
-import company.transportation.LuggageTransportation;
+import model.company.transportation.LuggageTransportation;
 
 import java.util.List;
 
