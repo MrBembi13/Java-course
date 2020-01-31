@@ -12,10 +12,10 @@ public class PersonDAO implements IPersonDAO{
     private Class<IPersonDAO> DAOClass = IPersonDAO.class;
 
     @Override
-    public PersonModel getPersonByID(Long id) {
+    public PersonModel getPersonById(Long id) {
         SqlSession session = OpenSession.getOpenSession().openSession();
         entityDAO = session.getMapper(DAOClass);
-        PersonModel entity =  entityDAO.getPersonByID(id);
+        PersonModel entity =  entityDAO.getPersonById(id);
         session.close();
         return entity;
     }

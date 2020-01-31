@@ -14,4 +14,7 @@
     <select id="getCustomerList" resultMap="customer">
         select * from customer
     </select>
+    <insert id="insertCustomer">
+        insert into customer values (id_customer, id_person, haveAnimal, document, id_customerTr)
+    </insert>
 </mapper>

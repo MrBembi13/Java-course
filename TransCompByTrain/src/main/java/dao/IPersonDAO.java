@@ -5,7 +5,7 @@ import model.company.person.PersonModel;
 import java.util.List;
 
 public interface IPersonDAO {
-    PersonModel getPersonByID (Long id);
+    PersonModel getPersonById (Long id);
 
     List<PersonModel> getPersonList();
 

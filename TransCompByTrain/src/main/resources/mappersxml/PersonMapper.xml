@@ -12,4 +12,7 @@
     <select id="getPersonList" resultMap="personModel">
         select * from person
     </select>
+    <insert id="insertPerson">
+        insert into person values (6, "name", "surname")
+    </insert>
 </mapper>
